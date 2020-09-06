@@ -1,11 +1,16 @@
 #logo {
 	width: 400px;
 	height: auto;
+	margin-top: 50px;
 }
 
 #porta {
 	height: 395px;
 	width: auto;
+}
+
+.enigma {
+	margin-top: 150px;
 }
 
 .container {
@@ -28,7 +33,7 @@ body {
 	/* background-position: -45% -40%; */
 	background-color: #443f3bff;
 	font-family: mono;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #eeb281ff;
 	margin: 0;
 }
