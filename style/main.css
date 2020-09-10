@@ -1,11 +1,5 @@
-#logo {
-	width: 400px;
-	height: auto;
-}
-
-#porta {
-	height: 395px;
-	width: auto;
+.enigma {
+	margin-top: 150px;
 }
 
 .container {
@@ -13,24 +7,42 @@
 	min-width: 500px;
 }
 
-footer {
-	background-color: #c74530;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 75px;
-	color: #fbcfa1;
+#logo {
+	width: 400px;
+	height: auto;
+	margin-top: 50px;
+}
+
+#porta {
+	height: 395px;
+	width: auto;
+}
+
+html {
+	height: 100%;
 }
 
 body {
-	/* background-image: url("../holofote.png"); */
-	/* background-size: 200% auto; */
-	/* background-position: -45% -40%; */
+	height: 100%;
 	background-color: #443f3bff;
 	font-family: mono;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #eeb281ff;
 	margin: 0;
+}
+
+center {
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	background-color: #c74530;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 75px;
+	color: #fbcfa1;
 }
 
 a {
