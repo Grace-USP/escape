@@ -1,4 +1,5 @@
 <?php
+	date_default_timezone_set("America/Sao_Paulo");
 	$nome = "Nome do desafio aqui";
 	$senha = "suasenhaaqui";
 	$desafio = "
