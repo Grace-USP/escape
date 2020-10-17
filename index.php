@@ -13,9 +13,9 @@
 		echo "
 		<div class='container'>
 			<p>Para você poder avançar nos enigmas, é preciso <b>encontrar</b> uma <b>senha</b> com as dicas dadas. Com uma senha você consegue acessar o próximo enigma.</p>
-			<p>É possível <b>acessar</b> aos desafios apenas <b>mudando o número</b> do desafio <b>no link</b> do site. Ex: Para acessar ao <b>enigma 1</b> com a senha <b>senhasecreta</b>, você tem que acessar <a href=\"1\">http://each.usp.br/petsi/grace/escape<b>/1</b></a> e colocar a senha na caixa de texto.</p>
+			<p>É possível <b>acessar</b> aos desafios apenas <b>mudando o número</b> do desafio <b>no link</b> do site. Ex: Para acessar ao <b>enigma 1</b> com a senha <b>senhasecreta</b>, você tem que acessar <a href='1'>http://each.usp.br/petsi/grace/escape<b>/1</b></a> e colocar a senha na caixa de texto.</p>
 		</div>
-		<a href=\"1\"><img id=\"porta\" onmouseover=\"abrirPorta(this)\" onmouseout=\"fecharPorta(this)\" src=\"pfechada.png\"></img></a>
+		<a href='1'><img id='porta' onmouseover='abrirPorta(this)' onmouseout='fecharPorta(this)' src='pfechada.png'></img></a>
 		";
 	} else {	
 		echo "

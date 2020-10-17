@@ -14,9 +14,20 @@ Caso faça **algo que ainda não tem** em *projetos* ou *issues*, **criar** um a
 Para contribuir, ***favor criar uma nova branch***. Isso ajuda a identificar e evitar erros e permite você trabalhar com uma versão estável do código que você pode descartar a qualquer momento sem afetar a *branch* principal (se estiver com dúvidas, é só perguntar ou esperar eu colocar alguma coisa mais sobre isso aqui).
 
 ## Organização das pastas
-Os enigmas estarão em **uma pasta dentro de outra pasta** (seguindo da raiz) onde o nome da **pasta de cima** é o **número do desafio** e da **pasta de baixo** a **senha** para acessar o enigma (dada pelo enigma anterior). Caso a senha ainda não esteja definida, apenas colocar direto na pasta de cima ***POR ENQUANTO***.
+Os enigmas estarão em **uma pasta** onde o nome da **pasta** é o **número do desafio**.
 
-O **nome** do arquivo principal é `index.html`; independe do enigma. **Qualquer outro arquivo** pode ser criado dentro da pasta do enigma (css, imagens, gifs de baratas, outras páginas para o desafio etc). O enigma 1 está aí como referência.
+Os arquivos que serão utilizados são o `vars.php` que contém o **nome e senha** do desafio e o `texto.php` que contém o texto e o resto da página. Você está livre para criar qualquer outro arquivo ou mudar o `index.php` dentro da pasta do **seu desafio** (qualquer outra coisa falar comigo ou o responsável pelo desafio).
+
+## Responsáveis pelos desafios
+
+- **1:**
+- **2:** Fukuda e Glaucia
+- **3:**
+- **4:**
+- **5:**
+- **6:**
+
+Qualquer outra coisa geral do site, falar com a Júlia, o Fukuda ou a Glaucia. ;)
 
 ## Outros
 Qualquer coisa faltando ou errada é só adicionar aqui. Sintam-se livres, o repositório é de **vocês**.
