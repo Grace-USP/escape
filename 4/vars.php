@@ -1,4 +1,4 @@
 <?php
 $nome = "Binários";
-$senha = "senhasecreta";
+$senha = "marie curie";
 ?>

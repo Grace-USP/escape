@@ -4,7 +4,7 @@ include('vars.php');
 echo('<!-- Sala: ' . $nome . ' -->');
 
 $sucesso = false;
-if (!empty($_POST['senha']) && $_POST['senha'] == $senha) {
+if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
 	$sucesso = true;
 }
 
@@ -19,7 +19,7 @@ function logAccess() {
 			$loginfo = json_decode($logcontent, true);
 		}
 		if (!array_key_exists($nome, $loginfo[$_COOKIE['nome']])) {
-			$loginfo[$_COOKIE['nome']] = array($nome=>date('h:ia'));
+			$loginfo[$_COOKIE['nome']][$nome] = date('h:ia');
 			$logfile = fopen('../log.json', 'w+');
 			fwrite($logfile, json_encode($loginfo, JSON_PRETTY_PRINT | JSON_INVALID_UTF8_SUBSTITUTE));
 			fclose($logfile);
@@ -38,7 +38,7 @@ function logAccess() {
 	<center>
 		<a href='../index.php'><img id='logo' src='../logo.svg'></a>
 		<h2><?php echo ($sucesso) ? $nome : '?'; ?></h2>
-		<div class='container'>
+		<div class='container enigma'>
 				<?php
 				if (!empty($_COOKIE['nome'])) {
 					if ($sucesso) {

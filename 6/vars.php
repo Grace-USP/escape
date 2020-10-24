@@ -1,4 +1,4 @@
 <?php
-$nome = "Binários";
-$senha = "senhasecreta";
+$nome = "Linguagem dos Primeiros";
+$senha = $_COOKIE['nome'];
 ?>

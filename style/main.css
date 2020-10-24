@@ -1,5 +1,10 @@
 .enigma {
-	margin-top: 150px;
+	padding-bottom: 75px;
+}
+
+.enigma img {
+	width: 80%;
+	height: auto;
 }
 
 .container {
@@ -23,7 +28,8 @@ html {
 }
 
 body {
-	height: 100%;
+	position: relative;
+	min-height: 100%;
 	background-color: #443f3bff;
 	font-family: mono;
 	font-size: 1.3em;
@@ -32,7 +38,7 @@ body {
 }
 
 center {
-	position: relative;
+	width: 100%;
 	min-height: 100%;
 }
 

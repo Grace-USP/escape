@@ -1,4 +1,4 @@
 <?php
-$nome = "Binários";
+$nome = "Coruja Informa";
 $senha = "senhasecreta";
 ?>

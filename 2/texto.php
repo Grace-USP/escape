@@ -1,2 +1,5 @@
-<p>0 = '_', 1 = 'A', 2 = 'B', 3 = 'C', ..., 26 = 'Z'</p>
-<p>1000 10100 1 10 0 1 1001 11 1001 10010 10100 1 10000</p>
+<p>Nascida em Londres em 1920, ela se destacou nas aulas de ciências desde muito nova, tendo estudado em uma das poucas escolas para garotas que ensinavam física e química na sua época. Decidiu que queria ser cientista aos 15 anos, contrariando a vontade de seus pais, que não viam futuro para ela nessa área dominada por homens e gostariam que sua filha estudasse serviço social. No entanto, não deixou se abalar: ow 1941, tá rkfsk co qbknekny ow pícsmy-aeíwsmk o xy kxy coqesxdo, dybxye-co zocaescknybk, kxkvsckxny k ocdbedebk pícsmk no wkdobsksc mkblyxsjknyc eckxny bksyc-h. Myxnejse dkwléw ocdenyc pexnkwoxdksc cylbo kc wsmbyocdbedebkc ny mkblyxy o ny qbkpsdo - kccexdyc aeo pybkw k lkco no coe nyedybkny.</p>
+<p>Ow 1951, texdye-co à oaeszo no lsypícsmyc ny Usxq’c Myvvoqo Wonsmkv Bocokbmr Myexmsv xy vklybkdóbsy no lsypícsmk no Wkebsmo Gsvusxc, yxno kzvsmye coec ocdenyc myw nspbkçãy ny bksy-h zkbk nodobwsxkb k ocdbedebk nk wyvémevk ny NXK.</p>
+<p>Ovk myxnejse y ocdeny aeo zobwsdse k ylcobfkçãy ny pybwkdy rovsmysnkv ny NXK, wkc pybkw yc lsyaeíwsmyc Tkwoc Nogoi Gkdcyx, Pbkxmsc Mbsmu o coe mropo, Gsvusxc, aeo vofkbkw y zbêwsy Xylov no Pscsyvyqsk ye Wonsmsxk ow 1962.</p>
+<p>Myxcsnobknk ewk nkc wevroboc wksc sxtecdsçknkc nk msêxmsk wynobxk, <b>Byckvsxn Pbkxuvsx</b> wybboe kyc 37 kxyc, nofsny k ew mâxmob no yfábsy</p>
+<p><i>Sua contribuição começou a ser reconhecida somente <b>10</b> anos depois de sua morte.</i></p>
