@@ -27,7 +27,7 @@ Os arquivos que serão utilizados são o `vars.php` que contém o **nome e senha
 - **5:**
 - **6:**
 
-Qualquer outra coisa geral do site, falar com a Júlia, o Fukuda ou a Glaucia. ;)
+Qualquer outra coisa geral do site, falar com o Fukuda ;)
 
 ## Outros
 Qualquer coisa faltando ou errada é só adicionar aqui. Sintam-se livres, o repositório é de **vocês**.
