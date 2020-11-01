@@ -1,5 +1,5 @@
 # Escape
-Site estático para o escape online
+Site estático para o escape online do GRACE USP.
 
  **Esse README.md é direcionado aos desenvolvedores.**
 
@@ -11,7 +11,7 @@ Se for mesmo feito pela aba de **projetos**, favor **avisar por meio de mensagem
 Caso faça **algo que ainda não tem** em *projetos* ou *issues*, **criar** um antes de começar pelo mesmo motivo acima.
 
 ## Trabalhando com o repositório
-Para contribuir, ***favor criar uma nova branch***. Isso ajuda a identificar e evitar erros e permite você trabalhar com uma versão estável do código que você pode descartar a qualquer momento sem afetar a *branch* principal (se estiver com dúvidas, é só perguntar ou esperar eu colocar alguma coisa mais sobre isso aqui).
+Para contribuir, ***favor criar uma nova branch***. Isso ajuda a identificar e evitar erros e permite você trabalhar com uma versão estável do código que você pode descartar a qualquer momento sem afetar a *branch* principal (se estiver com dúvidas, veja [esse link](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)).
 
 ## Organização das pastas
 Os enigmas estarão em **uma pasta** onde o nome da **pasta** é o **número do desafio**.
