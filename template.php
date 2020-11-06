@@ -51,7 +51,7 @@ function logAccess() {
 						}
 					}
 				} else {
-					echo('Favor escolher um nome de usuário na <a href=\'/\'>página principal</a>.');
+					echo('Favor escolher um nome de usuário na <a href=\'../\'>página principal</a>.');
 				}
 				?>
 		</div>

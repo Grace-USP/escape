@@ -1,1 +1,1 @@
-<img src='../const.png'></img>
+<img src='../const.png' alt='She-Ra' title="She-Ra">

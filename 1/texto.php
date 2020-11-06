@@ -1,1 +1,1 @@
-<p><a href='#'>link ainda não disponível</a></p>
+<p><a href='http://www.each.usp.br/petsi/jornal/?p=2660'>A Heterogeneidade do VR</a></p>

@@ -1,8 +1,8 @@
 <?php
 
-$simg1 = strcasecmp($_POST['img1'], 'FFCL') == 0;
-$simg2 = strcasecmp($_POST['img2'], 'FEA') == 0;
-$simg3 = strcasecmp($_POST['img3'], 'FM') == 0;
+$simg1 = in_array(strtolower($_POST['img1']), array('ffcl' ,'ffcl usp', 'ffcl-usp'));
+$simg2 = in_array(strtolower($_POST['img2']), array('fea', 'fea usp',  'fea-usp'));
+$simg3 = in_array(strtolower($_POST['img3']), array('fm', 'fmusp', 'fm usp', 'fm-usp'));
 
 ?>
 
@@ -13,7 +13,7 @@ $simg3 = strcasecmp($_POST['img3'], 'FM') == 0;
 	<img src='../Sonja_Ashauer.jpg' style='width: 30%;'></img>
 	<input type='text' name='img1' placeholder='Imagem 1' value=<?php echo '\'' . $_POST['img1'] . '\''; ?>>
 	<input type='submit' value='testar'>
-	<?php if ($simg1) echo 'ACERTOU, MIZERAVI' ?>
+	<?php if($simg1) echo '&#10003;'; ?>
 </div>
 <br>
 
@@ -21,7 +21,7 @@ $simg3 = strcasecmp($_POST['img3'], 'FM') == 0;
 	<img src='../alunasusp.jpg' style='width: 30%;'></img>
 	<input type='text' name='img2' placeholder='Imagem 2' value=<?php echo '\'' . $_POST['img2'] . '\''; ?>>
 	<input type='submit' value='testar'>
-	<?php if ($simg2) echo 'ACERTOU, MIZERAVI' ?>
+	<?php if($simg2) echo '&#10003;'; ?>
 </div>
 <br>
 
@@ -29,12 +29,12 @@ $simg3 = strcasecmp($_POST['img3'], 'FM') == 0;
 	<img src='../Jaqueline-Goes-de-Jesus-e-equipe.jpg' style='width: 30%;'></img>
 	<input type='text' name='img3' placeholder='Imagem 3' value=<?php echo '\'' . $_POST['img3'] . '\''; ?>>
 	<input type='submit' value='testar'>
-	<?php if ($simg3) echo 'ACERTOU, MIZERAVI' ?>
+	<?php if($simg3) echo '&#10003;'; ?>
 </div>
 
 <?php
 
-if ($simg1 && $simg2 && $simg3) echo '<p>Código qr aqui...</p>';
+if ($simg1 && $simg2 && $simg3) echo '<p>Código QR aqui</p>';
 
 ?>
 
