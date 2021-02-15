@@ -3,10 +3,10 @@ include('vars.php');
 
 echo('<!-- Sala: ' . $nome . ' -->');
 
-$sucesso = false;
-if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
-	$sucesso = true;
-}
+$sucesso = true;
+// if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
+// 	$sucesso = true;
+// }
 
 function logAccess() {
 	global $nome;
@@ -32,12 +32,11 @@ function logAccess() {
 <head>
 	<meta charset='UTF-8'>
 	<link rel='stylesheet' href='../style/main.css'>
-	<title>Grace - <?php echo ($sucesso) ? $nome : '?'; ?></title>
+	<title>Escape Grace - <?php echo ($sucesso) ? $nome : '?'; ?></title>
 </head>
 <body>
-	<center>
-		<a href='../index.php'><img id='logo' src='../logo.svg'></a>
-		<h2><?php echo ($sucesso) ? $nome : '?'; ?></h2>
+		<?php echo ($sucesso) ? "<a href='../index.php'><img id='logo' class='small' src='../assets/logo.svg'></a> <center>" : "<center> <a href='../index.php'><img id='logo' src='../assets/logo.svg'></a>"; ?>
+		<h2><?php echo 'Enigma '.$num.': '.(($sucesso) ? $nome : '?'); ?></h2>
 		<div class='container enigma'>
 				<?php
 				if (!empty($_COOKIE['nome'])) {
@@ -55,9 +54,10 @@ function logAccess() {
 				}
 				?>
 		</div>
-		<footer>
-			canais do grace
-		</footer>
+	<footer class='controles'>
+		<a href='<?php echo ($num != 1) ? '../'.($num-1).'/' : '../'; ?>'>&lt; voltar</a>
+		<?php if ($num != 7) echo "<a href='../".($num+1)."/'>avançar &gt;</a>"; ?>
+	</footer>
 	</center>
 </body>
 

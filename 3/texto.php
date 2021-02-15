@@ -1,2 +1,2 @@
-<a href='https://www.instagram.com/p/CC8ohl5ByUR/'><img src='../grace-insta.png'></a>
+<img src='../assets/dica1.png'>
 <p>M C</p>

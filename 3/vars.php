@@ -1,4 +1,5 @@
 <?php
-$nome = "Desafio no Instagram";
+$num = 3;
+$nome = "Instagram";
 $senha = "rosalind franklin";
 ?>

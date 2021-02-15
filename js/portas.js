@@ -1,10 +1,10 @@
 function abrirPorta(imagem)
 {
-	imagem.src = "paberta.png";
+	imagem.src = "assets/paberta.png";
 }
 
 function fecharPorta(imagem)
 {
-	imagem.src = "pfechada.png";
+	imagem.src = "assets/pfechada.png";
 }
 
