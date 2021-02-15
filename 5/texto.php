@@ -34,7 +34,7 @@ $simg3 = in_array(strtolower($_POST['img3']), array('fm', 'fmusp', 'fm usp', 'fm
 
 <?php
 
-if ($simg1 && $simg2 && $simg3) echo '<p>Código QR aqui</p>';
+if ($simg1 && $simg2 && $simg3) echo "<img style='margin-top: 25px; width: 80%; max-width: 10em; height: auto;' src='../assets/qr_voce.png'>";
 
 ?>
 

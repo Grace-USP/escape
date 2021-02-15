@@ -33,6 +33,19 @@ function logAccess() {
 	<meta charset='UTF-8'>
 	<link rel='stylesheet' href='../style/main.css'>
 	<title>Escape Grace - <?php echo ($sucesso) ? $nome : '?'; ?></title>
+	<script>
+		var dica = 0;
+		var dicas = <?php echo $dicas; ?>;
+		function dar_dica() {
+			alert(dicas[dica]);
+			dica = (dica + 1) % dicas.length;
+		}
+	</script>
+	<script>
+		function banana() {
+			console.log("Olá, mundo!");
+		}
+	</script>
 </head>
 <body>
 		<?php echo ($sucesso) ? "<a href='../index.php'><img id='logo' class='small' src='../assets/logo.svg'></a> <center>" : "<center> <a href='../index.php'><img id='logo' src='../assets/logo.svg'></a>"; ?>
@@ -56,6 +69,7 @@ function logAccess() {
 		</div>
 	<footer class='controles'>
 		<a href='<?php echo ($num != 1) ? '../'.($num-1).'/' : '../'; ?>'>&lt; voltar</a>
+		<a href='#' onclick='dar_dica()'>dica</a>
 		<?php if ($num != 7) echo "<a href='../".($num+1)."/'>avançar &gt;</a>"; ?>
 	</footer>
 	</center>

@@ -1,5 +1,5 @@
 <?php
 $num = 7;
-$nome = "Fim!";
+$nome = "Não tem enigma 7!";
 $senha = "Alice Guy Blache";
 ?>

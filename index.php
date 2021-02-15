@@ -13,7 +13,7 @@
 			<a href='./'><img id='logo' class='small' src='assets/logo.svg'></a>
 			<center>
 			<div class='container'>
-				<p>Para você poder avançar nos enigmas, é preciso <b>encontrar</b> uma <b>senha</b> com as dicas dadas. Só com a senha você consegue acessar o próximo enigma. Dica: Todas as senhas são nomes de cientistas famosas. ;-)</p>
+				<p>Para você poder avançar nos enigmas, é preciso <b>encontrar</b> uma <b>senha</b> com as dicas dadas. Só com a senha você consegue acessar o próximo enigma. Dica: Todas as senhas são nomes de mulheres ligadas à ciência. ;-)</p>
 				<p>É possível <b>acessar</b> aos desafios apenas clicando em <b>'avançar'</b> no <b>canto inferior direito</b> do site.<br>Ex: Para ter acesso ao <b>enigma 1</b>, você precisa colocar a senha <b>senhasecreta</b> na caixa de texto.</p>
 			</div>
 			<a href='1'><img id='porta' onmouseover='abrirPorta(this)' onmouseout='fecharPorta(this)' src='assets/pfechada.png'></img></a>

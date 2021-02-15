@@ -1,1 +1,1 @@
-<p>Parabéns, você conseguiu escapar!</p>
+<p>É isso, parabéns!<br>Você conseguiu escapar!</p>
