@@ -3,10 +3,10 @@ include('vars.php');
 
 echo('<!-- Sala: ' . $nome . ' -->');
 
-$sucesso = true;
-// if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
-// 	$sucesso = true;
-// }
+$sucesso = false;
+if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
+	$sucesso = true;
+}
 
 function logAccess() {
 	global $nome;
