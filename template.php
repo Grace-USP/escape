@@ -4,7 +4,7 @@ include('vars.php');
 echo('<!-- Sala: ' . $nome . ' -->');
 
 $sucesso = false;
-if (!empty($_POST['senha']) && strcasecmp($_POST['senha'], $senha) == 0) {
+if (!empty($_POST['senha']) && in_array(strtolower($_POST['senha']), $senhas)) {
 	$sucesso = true;
 }
 
