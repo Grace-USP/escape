@@ -18,8 +18,8 @@ function logAccess() {
 			fclose($logfile);
 			$loginfo = json_decode($logcontent, true);
 		}
-		if (!array_key_exists($nome, $loginfo[$_COOKIE['nome']])) {
-			$loginfo[$_COOKIE['nome']][$nome] = date('F j, g:i a');
+		if (!array_key_exists($nome, $loginfo[strtolower($_COOKIE['nome'])])) {
+			$loginfo[strtolower($_COOKIE['nome'])][$nome] = date('F j, g:i a');
 			$logfile = fopen('../log.json', 'w+');
 			fwrite($logfile, json_encode($loginfo, JSON_PRETTY_PRINT | JSON_INVALID_UTF8_SUBSTITUTE));
 			fclose($logfile);
